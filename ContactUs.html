@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mainpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="./images/Untitled_design__1_-removebg-preview.png">
+    <title>DoctorPatient</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid nav">
+            
+          <a class="navbar-brand navhead" href="#"><img src="./images/Untitled design (1).png" alt="" class="logo_image">FAMILYCARE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item nav_hover">
+                <a class="nav-link active nav_font" aria-current="page" href="./Homepage.html">Home</a>
+              </li>
+              <li class="nav-item  nav_hover">
+                <a class="nav-link active nav_font" aria-current="page" href="./Services.html" >Our Services</a>
+              </li>
+              <li class="nav-item  nav_hover">
+                <a class="nav-link active nav_font" aria-current="page" href="./ContactUs.html">Contact Us</a>
+              </li>
+              <li class="nav-item  nav_hover">
+                <a class="nav-link nav_btn nav_font" aria-current="page" href="./Appointment.html">Appointemnt</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid contact_con">
+        <h1>Contact Us</h1>
+        <div class="contact_det">
+            <div style="margin-bottom: 8px;"><li class="links"><i class="bi bi-telephone-plus"></i>  0123456789</li></div>
+           <div style="margin-bottom: 10px;"><i class="bi bi-geo-alt-fill"></i> <span>No 19-LG-02, LG Floor, Blok E, Kompleks Komersil Akasa, <br>Jalan Akasa, Akasa Cheras Selatan, 43300, Seri Kembangan, Selangor</span></div> 
+             <div style="margin-bottom: 10px;"><li class="links"><i class="bi bi-envelope-at"></i> familycare@gmail.com</li></div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md ">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7968.458431640999!2d101.74113169315093!3d3.0330732377711422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcbd8a9e51b59%3A0x213800db9ae182de!2sAKASA%20CHERAS%20SOUTH!5e0!3m2!1sen!2sin!4v1686821153367!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md">
+                    <div class="contact_card">
+                        <h3>Leave your details here</h3>
+                        <p>We will be in touch soon!</p>
+                        <label for="">Enter Your Name</label><br>
+                        <input type="'text'" class="ip_box" id="name">
+                        <label for="">Enter Your Email</label><br>
+                        <input type="email" class="ip_box" id="email">
+                        <label for="">Contact Number</label><br>
+                        <input type="tel" class="ip_box" id="number"> 
+                        <label for="">Your Message</label>
+                        <input type="text" class="ip_box" id="message">
+                        <button class="submit_btn" onclick="contactUs_action()">Send</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-fluid fotter_container">
+            <div class="row justify-content-evenly">
+              <div class="col-md-3">
+                <p class="logo_text" href="#">
+                  <img src="./images/Untitled_design__1_-removebg-preview.png" alt="" class="logoimage">FAMILYCARE</p>
+                  <i class="bi bi-geo-alt-fill"></i> <span>No 19-LG-02, LG Floor, Blok E, Kompleks Komersil Akasa, <br>Jalan Akasa, Akasa Cheras Selatan, 43300, Seri Kembangan, Selangor</span>
+                  <h3>Working Hour:</h3>
+                  <p>Monday To Sunday <br> AM-8:30 PM</p>
+                  
+              </div>
+              <div class="col-md-3">
+               
+                <ul>
+                  <li style="list-style: none;"> <h1 class="footerpart1">Quick Links</h1></li>
+                  <li class="links"><a href="./Homepage.html" style="text-decoration: none; color: black;">Home</a></li>                      
+                  <li class="links"><a href="./Services.html"  style="text-decoration: none;  color: black;">Our Services</a></li>
+                  <li class="links"><a href="./ContactUs.html"  style="text-decoration: none;  color: black;">Contact Us</a></li>
+                  <li class="links"><a href="./Appointment.html"  style="text-decoration: none;  color: black;">Appointment</a></li>
+                </ul>
+              </div>
+      
+              <div class="col-md-3">
+                <li  style="list-style: none;"><h1 class="footerpart1">Contact Info</h1></li>
+                <li class="links"><i class="bi bi-telephone-plus"></i>  0123456789</li>
+                <li class="links"><i class="bi bi-envelope-at"></i> familycare@gmail.com</li>
+                <li class="links">Follow us:</li>
+                <i class="bi bi-instagram" style="margin-right: 10px;"> 
+      
+                </i><i class="bi bi-twitter" style="margin-right: 10px;">
+      
+                </i><i class="bi bi-facebook" style="margin-right: 10px;"></i>
+              </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./ContactUs.js"></script>
+</body>
+</html>
